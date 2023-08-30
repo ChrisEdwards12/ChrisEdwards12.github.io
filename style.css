@@ -1,6 +1,6 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    background: rgb(101, 94, 94);
+    color: rgb(192, 188, 188);
     padding: 10px;
     font-family: arial;
 }
@@ -79,7 +79,7 @@ h2, h3 {
         }
 
         #portfolio li:hover {
-            background: #eee;
+            background: #7e83b0;
         }
 
         #portfolio a {
