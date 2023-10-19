@@ -62,9 +62,9 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			var myVariable = 0;
-			
-			
+			var positionX = 0;
+			var points = 0;
+			var speed = 10;
 
 			
 			/* 
@@ -73,7 +73,9 @@
 			turn it around! 
 			*/
 			function update() {
-				var moveBoxTo()
+				/* Your Code to Increase positionX by 10 HERE */
+                 positionX = positionX + speed;
+				 moveBoxTo(positionX)
 
 			};
 
@@ -83,7 +85,10 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
+				positionX = 0;
+				points = points + 1
+				changeBoxText(points);
+				speed = speed + 1
 
 
 			};
